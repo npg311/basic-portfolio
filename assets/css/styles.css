@@ -1,0 +1,88 @@
+body { 
+    height:100% ;
+    width:100%; 
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    padding: 10;
+    border: 10px;
+    background-image: url("C:\Users\B&M\KUED201902FSF2\basic-portfolio\assets\img\dynamic-style.png");
+}
+
+.content {
+    
+    position: fixed;
+    max-width: 100%;
+   
+
+}
+
+h1 {
+    float: left;
+    background-color:#4aaaa5;
+    color: white;
+    max-width:30%;
+    padding:25px;
+    margin: 0px;
+    border: 1px 1px 1px 1px;
+}
+
+.nav-bar {
+    position: center;
+    width: 960px;
+    background-color: white;
+    padding-bottom: 24px;     
+    margin:0; 
+    border-bottom:4px solid darkgray;  
+}
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: darkgray;
+  }
+  
+  li {
+    float: right;
+    border-right:1px solid #ccc;
+  }
+  
+  li:first-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: darkgray;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #FFC;
+  }
+  
+  .active {
+    background-color: #4aaaa5;
+  }
+  .navFloat{
+     float:left;
+     background-color:#4aaaa5;
+     color:#fff;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: darkgrey;
+        color: white;
+        text-align: center;
+      } 
+.content-inside {
+
+
+}
