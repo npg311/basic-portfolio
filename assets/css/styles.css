@@ -11,8 +11,8 @@ body {
 
 .content {
     
-    position: fixed;
-    max-width: 100%;
+   
+    max-width: 960px;
    
 
 }
@@ -29,7 +29,7 @@ h1 {
 
 .nav-bar {
     position: center;
-    width: 960px;
+    
     background-color: white;
     padding-bottom: 24px;     
     margin:0; 
